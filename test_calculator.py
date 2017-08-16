@@ -20,7 +20,7 @@ def test_calculator_multiply():
     """ Tests the calculator_multiply fuction """
     assert calculator.calculator_multiply(4, 4) == 16
     assert calculator.calculator_multiply(0, 0) == 0
-    assert calculator.calculator_multiply(0, 1) == 1
+    assert calculator.calculator_multiply(0, 1) == 0
     assert calculator.calculator_multiply(0, -5) == 0
 
 def test_calculator_divide():
